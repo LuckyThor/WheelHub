@@ -96,7 +96,7 @@ $(function() {
 const carouselContainer = document.querySelector('.carousel-image-container');
 carouselContainer.addEventListener('click', function(e) {
     if(e.target.classList.contains('carousel-image')) {
-        window.location.href = 'promotion.html'
+        window.location.href = './Pages/promotion.html'
     }
 });
 
@@ -105,7 +105,7 @@ const cardContainer = document.querySelector('.card-container');
 cardContainer.addEventListener('click', function(e){
     // console.log(e.target);
     if(e.target.classList.contains('car-card') || e.target.classList.contains('car-image') || e.target.classList.contains('car-name')){
-        window.location.href = 'allCars.html'
+        window.location.href = './Pages/allCars.html'
     }
 });
 
